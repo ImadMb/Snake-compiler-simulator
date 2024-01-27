@@ -2,7 +2,7 @@
 This project, created in Java, is a compiler simulator that simumates lexical, syntaxtic, and semantic analysis, mimicking the functionality of a real compiler.
 The simulator includes examples of pseudo code in the "Snake" language, demonstrating both correct usage and instances with syntaxtic and semantic errors.
 
-## to use it download the content of the repository or fork it to your own repository and execute the main.java file
+## to use it download the content of the repository or fork it to your own repository and run the main.java file
 
 ### Stages of Compilation
 A compiler undergoes three primary phases: lexical analysis, syntaxical analysis, and semantic analysis.
