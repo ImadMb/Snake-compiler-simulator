@@ -20,10 +20,10 @@ if (a > b) {
 } else {
     // Code 
 }
-#### Syntaxical analysis checks if the structure follows the correct pattern for an if statement, including the proper placement of parentheses, braces, and the condition.
+Syntaxical analysis checks if the structure follows the correct pattern for an if statement, including the proper placement of parentheses, braces, and the condition.
 some famous syntaxical errors are: missing semi-colone, using undeclared variables and unclosed brackets and parantheses.
 
-Semantic Analysis
+#### Semantic Analysis
 Semantic analysis goes beyond syntax, examining the meaning of the code. It ensures that the code makes logical sense and adheres to the intended semantics of the language. For instance:
 
 int x = 5;
