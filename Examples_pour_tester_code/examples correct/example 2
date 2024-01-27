@@ -1,0 +1,20 @@
+Snk_Begin
+	Snk_Int i, j, k $
+	Snk_Real l $
+	Snk_Strg bnj "Bonjour!" $
+	Set i 14 $
+	Set k 9 $
+	Get j from i $
+	If [i >= j]
+		Begin
+			Snk_Print i, j, k, l $
+	        Snk_Print "i est superieur a j" $
+		End
+	Else
+        Begin
+			Snk_Print i, j, k, l $
+	        Snk_Print "i est inferieur a j" $
+			Snk_Print bnj $
+		End
+	$$ ceci est un commentaire
+Snk_End

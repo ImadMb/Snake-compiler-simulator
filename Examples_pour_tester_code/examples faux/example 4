@@ -1,0 +1,23 @@
+Snk_Begin
+    $$ Déclaration des variables
+    Snk_Int i $ 
+    Snk_Reel l , ,
+    $$ Initialisation des variables i et k
+    Set i 1.4 
+    set k 9 
+    $$ Affectation de la valeur de i à j
+    Get j  i  
+    $$ Conditionnelle basée sur les valeurs de i et j
+    If [i >= j] 
+        Begin 
+            $$ Bloc exécuté si i est supérieur ou égal à j
+            Snk_Print i, j, k, l 
+            Snk_Print "i est supérieur à j" 
+        End 
+    Else 
+        Begin 
+            $$ Bloc exécuté si i n'est pas supérieur ou égal à j
+            Snk_Print i, j, k, l $
+            print(hello, world);
+        End 
+Snk_End

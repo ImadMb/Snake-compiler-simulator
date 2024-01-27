@@ -1,0 +1,19 @@
+Snk_Begin
+	Snk_Int i, j, x1, x2 $
+	Snk_Real x3 $
+	Snk_Strg srt "ceci est une chaine de charactere" $
+	Set i 33 $
+	Set x3 48.9 $
+	If [i  50]
+		Set x1 10.47$
+	Else
+		Begin
+			Get x2 x3 $
+			Set k 43.5 $
+			Snk_Print x2, x3 $
+			Snk_Print $
+		End
+	Snk_Print "Hello, World!"
+	Snk_Print i, j $
+	$$ ceci est un commentaire
+Snk_End

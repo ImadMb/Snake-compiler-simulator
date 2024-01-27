@@ -1,0 +1,24 @@
+Snk_Begin
+    $$ Déclaration des variables
+    Snk_Int i, j, x1, x2 $ 
+    Snk_Real x3 $ 
+    $$ Initialisation de la variable i
+    Set i 33 $
+    Set x3 6.9 $
+    $$ Conditionnelle basée sur la valeur de i
+    If [i < 50] 
+        Begin 
+            $$ Bloc exécuté si i est inférieur à 50
+            Set x1 10 $ 
+        End 
+    Else 
+        Begin 
+            $$ Bloc exécuté si i n'est pas inférieur à 50
+            Get x2 from x1 $ 
+            Set x2 43 $ 
+            Snk_Print x2, x3 $ 
+        End 
+    $$ Affichage de messages
+    Snk_Print "Hello, World!" $ 
+    Snk_Print i, j $ 
+Snk_End

@@ -1,0 +1,10 @@
+Projet fait par:
+MOUTAAHIBE imed eddine
+MENOURA ilyes
+
+ce program java est un analyseur lexical, syntaxique et sémantique pour un
+pseudo langage appellé snake avec unique instructions
+
+pour tester ce program, utilisez le dossier Exemple_pour_tester_code
+qui contient des exemples corrects ainsi que des exemples erronés
+
